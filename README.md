@@ -7,7 +7,7 @@ We implement the integral equation based solver through:
     *in_to_bd_5h_solver, which uses the 5h-principle to solve for the points near the boundary;
 
 We implement the FEM and FDM through:
-    *FEM_solver;
+    *FEM_solver; we refer to the document matlab for concrete implementation.
     *FDM_solver;
 
 We mainly implement our experiments for elliptic-like and k-leaf boundary through:
@@ -18,4 +18,6 @@ We mainly implement our experiments for elliptic-like and k-leaf boundary throug
     *k_leaf_function, solve use IEB;
     *k_leaf_function, solve with 5h-principle;
     *k_leaf_graph_plot, plot;
+
+We compare the integral solver with FEM and FDM. 
 
